@@ -74,7 +74,7 @@ console.log(arr);
 
 
 
-// 6 uzduotis Neistrina visus pirminius skaicius
+// 6 uzduotis 
 console.log("--------- 6 uzduotis ------------");
 
 let newArr = [];
