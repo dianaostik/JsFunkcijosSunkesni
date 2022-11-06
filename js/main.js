@@ -86,15 +86,11 @@ console.log(newArr);
 let array = [];
 let element = 0;
 for (let x = 0; x < newArr.length; x++) {
-    for (let y = 0; y < newArr.length; y++) {
-        if (numSum(newArr[x]) > 2) {
-            newArr[x] += array;
-            element++;
-            //console.log(x);
+        if (numSum(newArr[x]) > 0) {
+            array.push(newArr[x]);
         }
-    }
 }
-console.log(newArr);
+console.log(array);
 
 
 
